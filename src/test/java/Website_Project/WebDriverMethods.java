@@ -26,14 +26,14 @@ public class WebDriverMethods {
 				driver.navigate().refresh();
 				//driver.navigate().to(url);
 		//6.Manage(It is used to access options interfaces,which provide a way to manage various browser activity)
-				//5.1(maximize the window)
+				//6.1(maximize the window)
 				driver.manage().window().maximize();
-				//5.2(minimize the window)
+				//6.2(minimize the window)
 				driver.manage().window().minimize();
-				//5.3(minimize the window)
+				//6.3(minimize the window)
 				driver.manage().window().fullscreen();
 				Thread.sleep(4000);
-				//5.4(get and set position and size)
+				//6.4(get and set position and size)
 					//1.using get we fetch the position and size
 						Point getpos = driver.manage().window().getPosition();
 						System.out.println("postion of the screen"+getpos);
